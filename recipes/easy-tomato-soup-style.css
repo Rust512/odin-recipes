@@ -1,5 +1,27 @@
 body {
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
+}
+
+.page-heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.global-container {
+    padding: 0 50px;
+}
+
+.top-image {
+    width: 100%;
+    height: auto;
+}
+
+.ingredients li,
+.procedure li,
+.tips li {
+    margin: 5px 0;
 }
